@@ -34,7 +34,7 @@ set incsearch
 " misc
 set autoread " detect local file change
 set formatoptions+=j " Delete comment characters when joining lines.
-set backspace=2 "make backspace work on soem system, same as :set backspace=indent,eol,start
+set backspace=2 " make backspace work on soem system, same as :set backspace=indent,eol,start
 " file type plugins
 filetype plugin on
 filetype indent on
