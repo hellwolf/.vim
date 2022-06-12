@@ -1,0 +1,15 @@
+# filetypes
+[submodule "pack/filetypes/start/solidity"]
+	path = pack/filetypes/start/vim-solidity
+	url = https://github.com/tomlion/vim-solidity.git
+[submodule "pack/filetypes/start/cabal-project-vim"]
+	path = pack/filetypes/start/cabal-project-vim
+	url = https://github.com/vmchale/cabal-project-vim.git
+
+# tools
+[submodule "pack/filetypes/start/fzf"]
+	path = pack/tools/start/fzf
+	url = https://github.com/junegunn/fzf.git
+[submodule "pack/filetypes/start/fzf.vim"]
+	path = pack/tools/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
