@@ -20,7 +20,7 @@ execute "set <M-char-62>=\e>"
 imap <M-char-62> <C-o>G<C-o>$
 " auto completion remapping
 execute "set <M-/>=\e/"
-imap <M-/> <C-x><C-n><C-e>
+imap <M-/> <C-x><C-n><ESC>a
 
 function! s:home()
     let start_column = col('.')
