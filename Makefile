@@ -1,6 +1,6 @@
 update: submodule-update
 
-sync: update submodule-sync
+sync: submodule-sync
 
 init: submodule-deinit submodule-init
 
@@ -13,9 +13,10 @@ submodule-init:
 	git submodule update --init
 
 submodule-update:
-	git submodule update --remote
+	git submodule update --recursive
 
 submodule-sync:
+	git submodule update --remote --recursive
 	git submodule sync
 
 @PHONY: submodule-*
