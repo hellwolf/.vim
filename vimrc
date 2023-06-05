@@ -31,6 +31,10 @@ syntax enable
 " search options
 set hlsearch
 set incsearch
+" trailing whitespaces
+highlight RedundantSpaces ctermbg=red guibg=red
+match RedundantSpaces /\s\+$/
+autocmd BufWritePre * :%s/\s\+$//e " removing all trailing whitespace
 " misc
 set autoread " detect local file change
 set formatoptions+=j " Delete comment characters when joining lines.
