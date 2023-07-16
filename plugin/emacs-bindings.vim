@@ -4,18 +4,18 @@
 " INSERT MODE KEY MAPPINGS
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " cursor movements
+imap <C-f> <Right>
 imap <C-p> <Up>
 imap <C-n> <Down>
 imap <C-b> <Left>
+imap <C-a> <C-o>:call <SID>home()<CR>
+imap <C-e> <End>
 "" M-f
 execute "set <M-char-102>=\ef"
 imap <M-char-102> <C-o>e<Right>
 "" M-b
 execute "set <M-char-98>=\eb"
 imap <M-char-98> <C-o>b
-imap <C-f> <Right>
-imap <C-a> <C-o>:call <SID>home()<CR>
-imap <C-e> <End>
 " deletion movements
 imap <C-d> <Del>
 " kill & yank
