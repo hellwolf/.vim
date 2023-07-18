@@ -14,3 +14,5 @@ vnoremap y ygv"+y
 
 "" remove the tool bar
 :set guioptions -=T
+
+:set lines=40 columns=130
