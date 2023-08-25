@@ -8,6 +8,8 @@ set wildmenu " enhanced command-line completion experience
 set showcmd " show last command
 set laststatus=2 " status line, 2: always
 set ruler " row,col in status line
+set colorcolumn=120
+highlight ColorColumn ctermbg=magenta
 " https://vim.fandom.com/wiki/Change_cursor_shape_in_different_modes
 let &t_SI = "\<Esc>[6 q"
 let &t_SR = "\<Esc>[4 q"
