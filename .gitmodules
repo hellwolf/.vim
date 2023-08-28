@@ -19,3 +19,6 @@
 [submodule "pack/tools/start/editorconfig-vim"]
 	path = pack/tools/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "pack/tools/start/vim-shellcheck"]
+	path = pack/tools/start/vim-shellcheck
+	url = https://github.com/itspriddle/vim-shellcheck.git
