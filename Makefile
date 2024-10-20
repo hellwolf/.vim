@@ -10,7 +10,7 @@ submodule-deinit:
 	git submodule deinit --all --force
 
 submodule-init:
-	git submodule update --init
+	git submodule update --init --recursive
 
 submodule-update:
 	git submodule update --recursive
