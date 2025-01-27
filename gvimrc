@@ -15,4 +15,5 @@ vnoremap y ygv"+y
 "" remove the tool bar
 :set guioptions -=T
 
+:set guifont=Fira\ Code\ 10
 :set lines=40 columns=130
