@@ -1,13 +1,13 @@
 # filetypes
-[submodule "pack/filetypes/start/solidity"]
-	path = pack/filetypes/start/vim-solidity
-	url = https://github.com/tomlion/vim-solidity.git
-[submodule "pack/filetypes/start/haskell-vim-scripts"]
-	path = pack/filetypes/start/haskell-vim-scripts
-	url = https://github.com/coot/haskell-vim-scripts.git
+[submodule "pack/filetypes/start/haskell-vim"]
+	path = pack/filetypes/start/haskell-vim
+	url = https://github.com/neovimhaskell/haskell-vim.git
 [submodule "pack/filetypes/start/vim-nix"]
 	path = pack/filetypes/start/vim-nix
 	url = https://github.com/LnL7/vim-nix
+[submodule "pack/filetypes/start/vim-solidity"]
+	path = pack/filetypes/start/vim-solidity
+	url = https://github.com/thesis/vim-solidity.git
 
 # tools
 [submodule "pack/tools/start/fzf"]
